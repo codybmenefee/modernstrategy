@@ -86,7 +86,7 @@ export default function VisionPage() {
 
       {/* The Problem */}
       <section id="problem" className="section-spacing">
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-white heading-underline">The Problem — Why Now</h2>
           <p className="mt-6 text-center text-lg text-slate-300 max-w-3xl mx-auto">
             Here are the current bottlenecks in regenerative agriculture — the reasons this vision isn&apos;t mainstream yet.
@@ -126,7 +126,7 @@ export default function VisionPage() {
       {/* Why This Moment in Time */}
       <section className="section-spacing">
         <div className="container mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl md:text-5xl font-bold text-white heading-underline">Why This Moment in Time</h2>
+          <h2 className="text-3xl md:text-5xl font-bold text-center text-white heading-underline">Why This Moment in Time</h2>
           <div className="mt-12 space-y-8 text-lg text-slate-300">
             <p>
               Global demand for protein is rising as the world&apos;s population grows, but conventional agriculture is destroying our soil and accelerating climate change.
@@ -163,7 +163,7 @@ export default function VisionPage() {
 
       {/* The Future */}
       <section className="section-spacing">
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-white heading-underline">The Future</h2>
           <p className="mt-6 text-center text-slate-300">
             Imagine a world where livestock management is regenerative, autonomous, and scalable.
@@ -216,7 +216,7 @@ export default function VisionPage() {
 
       {/* The World We're Building Toward */}
       <section className="section-spacing">
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-white heading-underline">The World We’re Building Toward</h2>
           <div className="mt-12 space-y-12">
             <div className="grid gap-8 md:grid-cols-3">
@@ -224,7 +224,7 @@ export default function VisionPage() {
                 <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full glass">
                   <Bot className="h-8 w-8" style={{ color: 'var(--accent-primary)' }} />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Autonomous Livestock Management</h3>
+                <h3 className="text-xl font-semibold text-center text-white mb-4">Autonomous Livestock Management</h3>
                 <p className="text-slate-300">
                   Imagine livestock that manage themselves, adapting paddock sizes in real time based on forage growth, weather patterns, and nutritional needs.
                 </p>
@@ -233,7 +233,7 @@ export default function VisionPage() {
                 <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full glass">
                   <Leaf className="h-8 w-8" style={{ color: 'var(--accent-secondary)' }} />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Healing Landscapes</h3>
+                <h3 className="text-xl font-semibold text-center text-white mb-4">Healing Landscapes</h3>
                 <p className="text-slate-300">
                   Imagine landscapes healing themselves — carbon sequestered in soil, biodiversity rebounding, watersheds restored, all while producing premium food.
                 </p>
@@ -242,7 +242,7 @@ export default function VisionPage() {
                 <div className="mx-auto mb-6 flex h-16 w-16 items-center justify-center rounded-full glass">
                   <Sparkles className="h-8 w-8" style={{ color: 'var(--accent-primary)' }} />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Regenerative at Scale</h3>
+                <h3 className="text-xl font-semibold text-center text-white mb-4">Regenerative at Scale</h3>
                 <p className="text-slate-300">
                   Imagine regeneratively raised meat becoming cheaper than factory meat, creating a flywheel where healthy land produces abundant, affordable food.
                 </p>
@@ -264,7 +264,7 @@ export default function VisionPage() {
 
       {/* Roadmap */}
       <section className="section-spacing">
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-white heading-underline">How We Get There</h2>
           <p className="mt-6 text-center text-lg text-slate-300 max-w-3xl mx-auto">
             Here&apos;s how we can get there, if the right people, tools, and resources come together.
@@ -294,7 +294,7 @@ export default function VisionPage() {
 
       {/* Impact Thesis */}
       <section className="section-spacing">
-        <div className="container mx-auto max-w-6xl">
+        <div className="container mx-auto max-w-6xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-center text-white heading-underline">Why It Matters</h2>
           <div className="mt-8 text-center text-lg text-slate-300 max-w-3xl mx-auto">
             <p>Farmers should prosper, land should heal, and society should access affordable regenerative meat at scale.</p>
@@ -369,17 +369,17 @@ export default function VisionPage() {
           <p className="mt-6 text-slate-300 text-lg max-w-2xl mx-auto">
             I’m looking for collaborators, thinkers, and builders who share this vision. If that’s you — let’s talk.
           </p>
-          <div className="mt-8 grid gap-4 md:grid-cols-3 text-left">
+          <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="glass p-4">
-              <h3 className="font-semibold text-white mb-2">For Farmers</h3>
+              <h3 className="font-semibold text-center text-white mb-2">For Farmers</h3>
               <p className="text-sm text-slate-400">Scale regenerative practices with AI-powered insights and automation.</p>
             </div>
             <div className="glass p-4">
-              <h3 className="font-semibold text-white mb-2">For Builders</h3>
+              <h3 className="font-semibold text-center text-white mb-2">For Builders</h3>
               <p className="text-sm text-slate-400">Create the next generation of ag-tech that matters.</p>
             </div>
             <div className="glass p-4">
-              <h3 className="font-semibold text-white mb-2">For Visionaries</h3>
+              <h3 className="font-semibold text-center text-white mb-2">For Visionaries</h3>
               <p className="text-sm text-slate-400">Shape how humanity feeds itself sustainably.</p>
             </div>
           </div>
